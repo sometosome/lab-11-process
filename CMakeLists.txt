@@ -40,7 +40,6 @@ hunter_add_package(BoostProcess)
 find_package(BoostProcess CONFIG REQUIRED)
 
 add_library(${PROJECT_NAME} STATIC
-  # enum your files and delete this comment
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/builder.cpp
 )
 
